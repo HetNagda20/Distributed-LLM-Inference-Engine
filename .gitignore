@@ -1,0 +1,63 @@
+
+# Scala / sbt
+
+target/
+project/target/
+project/project/
+*.class
+*.jar
+*.war
+*.ear
+
+# sbt specific
+.cache/
+.history/
+.lib/
+dist/*
+/.bsp/
+
+
+# IDE — IntelliJ IDEA
+
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+
+# macOS
+
+.DS_Store
+__MACOSX/
+.AppleDouble
+.LSOverride
+._*
+
+
+# Logs
+
+logs/
+*.log
+logback*.xml.bak
+
+
+# AWS / Secrets — never commit these
+
+*.pem
+*.key
+.env
+application.local.conf
+secrets.conf
+
+
+# Build output / Assembly JARs
+
+*.assembly.jar
+assembly/
+
+
+# Compiled outputs
+
+*.class
+*.tasty

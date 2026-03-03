@@ -1,0 +1,13 @@
+services:
+  llm-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - HTTP_HOST=0.0.0.0
+      - HTTP_PORT=8080
+      - API_GATEWAY_URL=https://0oy4jqp4ud.execute-api.us-east-1.amazonaws.com/Dev1/prompt
+    volumes:
+      - ./logs:/app/logs

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package com.HetNagda.proto;
+
+option java_package = "com.HetNagda.proto";
+
+message RequestToClaude {
+  string input_text = 1;
+  map<string, string> parameters = 2;
+}
+
+message ResponseFromClaude {
+  string output_text = 1;
+  map<string, float> confidence_scores = 2;
+  repeated string tokens = 3;
+}
