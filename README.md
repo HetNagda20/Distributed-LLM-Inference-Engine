@@ -251,6 +251,13 @@ docker run -p 8080:8080 ec2-inference-server
 - Protobuf schema changes require recompilation of all three modules
 
 ---
+## Related Repos
+
+| Part | Description | Link |
+|---|---|---|
+| Part 1 | MapReduce Tokenization Pipeline | [LLM-Tokenization-MapReduce](https://github.com/HetNagda20/LLM-Tokenization-MapReduce) |
+| Part 2 | Spark + DeepLearning4J Training | [LLM-Spark-Training](https://github.com/HetNagda20/LLM-Spark-Training) |
+| Part 3 | Akka HTTP + AWS Lambda Inference Engine | You are here |
 
 ## License
 
