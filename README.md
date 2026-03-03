@@ -1,6 +1,6 @@
 # Distributed LLM Inference Engine
 
-**Het Rajesh Nagda** | [LinkedIn](https://www.linkedin.com/in/hetnagda20/) | [Portfolio]([https://portfolio.com](https://hetnagda20.github.io/het-website/))
+**Het Rajesh Nagda** | [LinkedIn](https://www.linkedin.com/in/hetnagda20/) | [Portfolio]([https://portfolio.com](https://hetnagda20.github.io/het-website/)
 
 A cloud-native, distributed system that orchestrates multi-turn conversations between a locally hosted LLM (Ollama/Llama3) and a cloud-hosted LLM (AWS Bedrock/Claude) via a microservice architecture built with Scala, Akka HTTP, gRPC, and AWS.
 
