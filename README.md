@@ -262,3 +262,5 @@ docker run -p 8080:8080 ec2-inference-server
 ## License
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) — feel free to fork and build on top of this project.
+
+![](https://hits.sh/github.com/HetNagda20/Distributed-LLM-Inference-Engine.svg)
